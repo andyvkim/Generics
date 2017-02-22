@@ -59,9 +59,9 @@ public class MyArrayList<T> {
     public void clear(){
         for (int i = 0; i < elements.length; i++){
             elements[i] = null;
-
         }
     }
+
     public boolean isEmpty(){
         return elements == null;
         }
