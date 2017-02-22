@@ -10,6 +10,8 @@ public class MySet <T> extends MyArrayList {
 
     Object[] set = new Object[3];
 
+    boolean checker = false;
+
     public void AddnoRepeats(Object[] mySet, Object object){
         int currentPosition = 1;
         Object lastFound = mySet[0];
@@ -25,14 +27,29 @@ public class MySet <T> extends MyArrayList {
 
     public boolean contains(Object[] mySet, Object o){
         for (int i = 0; i < mySet.length; i++){
-            return (mySet[i] == o);
-
+            if(mySet[i] == o){
+                checker = true;
+            }
+            checker = false;
 
         }
-            return false;
+            return checker;
     }
 
-    
+    public boolean isEmpty(Object[] mySet){
+
+        for (int i = 0; i < mySet.length; i++){
+            if (mySet[i] == null){
+                checker = true;
+            }
+            checker = false;
+        }
+        return checker;
+    }
+    public int size(Object[] mySet){
+        return mySet.length;
+    }
+
 
 
 }

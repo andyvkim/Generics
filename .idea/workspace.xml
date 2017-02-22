@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc5ee259-933e-43a5-8834-9e816b878036" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/kim/andy/MySet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/part2Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/kim/andy/MyArrayList.java" afterPath="$PROJECT_DIR$/src/main/java/kim/andy/MyArrayList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/kim/andy/MySet.java" afterPath="$PROJECT_DIR$/src/main/java/kim/andy/MySet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/part2Test.java" afterPath="$PROJECT_DIR$/src/test/java/part2Test.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,10 +43,12 @@
       <file leaf-file-name="MySet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/kim/andy/MySet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+            <state relative-caret-position="490">
+              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1156#1157#0" expanded="true" />
+                <element signature="e#1191#1192#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,8 +57,8 @@
       <file leaf-file-name="part2Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/part2Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            <state relative-caret-position="550">
+              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,8 +108,8 @@
         <option value="$PROJECT_DIR$/src/main/java/MyArrayList.java" />
         <option value="$PROJECT_DIR$/src/test/java/part1Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/kim/andy/MyArrayList.java" />
-        <option value="$PROJECT_DIR$/src/test/java/part2Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/kim/andy/MySet.java" />
+        <option value="$PROJECT_DIR$/src/test/java/part2Test.java" />
       </list>
     </option>
   </component>
@@ -252,28 +252,7 @@
       <recent name="kim.andy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.part2Test.containsTest">
-    <configuration default="false" name="part1Test.getTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Generics" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="part1Test" />
-      <option name="METHOD_NAME" value="getTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.part2Test.sizeTest">
     <configuration default="false" name="part1Test.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Generics" />
@@ -282,27 +261,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="part1Test" />
       <option name="METHOD_NAME" value="addTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="part1Test.isEmptyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Generics" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="part1Test" />
-      <option name="METHOD_NAME" value="isEmptyTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -345,6 +303,48 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="part2Test" />
       <option name="METHOD_NAME" value="containsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="part2Test.isEmptyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Generics" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="part2Test" />
+      <option name="METHOD_NAME" value="isEmptyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="part2Test.sizeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Generics" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="part2Test" />
+      <option name="METHOD_NAME" value="sizeTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -739,19 +739,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.part1Test.getTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.part1Test.addTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.part1Test.isEmptyTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.part2Test.noRepeatsTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.part2Test.containsTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.part1Test.addTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.part2Test.noRepeatsTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.part2Test.containsTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.part2Test.isEmptyTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.part2Test.sizeTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.part2Test.containsTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.part2Test.noRepeatsTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.part1Test.addTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.part1Test.isEmptyTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.part1Test.getTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.part2Test.sizeTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.part2Test.containsTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.part2Test.isEmptyTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.part2Test.noRepeatsTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.part1Test.addTest" />
       </list>
     </recent_temporary>
   </component>
@@ -766,20 +766,11 @@
       <option name="presentableId" value="Default" />
       <updated>1487789976051</updated>
       <workItem from="1487789982055" duration="14472000" />
-      <workItem from="1487806012995" duration="757000" />
+      <workItem from="1487806012995" duration="1484000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="part1Test_addTest - 2017.02.22 at 17h 16m 02s.xml">
-      <configuration name="part1Test.addTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="part1Test_getTest - 2017.02.22 at 16h 58m 17s.xml">
-      <configuration name="part1Test.getTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="part1Test_isEmptyTest - 2017.02.22 at 17h 13m 49s.xml">
-      <configuration name="part1Test.isEmptyTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="part2Test_containsTest - 2017.02.22 at 18h 34m 29s.xml">
       <configuration name="part2Test.containsTest" configurationId="JUnit" />
     </history-entry>
@@ -789,21 +780,30 @@
     <history-entry file="part2Test_containsTest - 2017.02.22 at 18h 39m 31s.xml">
       <configuration name="part2Test.containsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="part2Test_noRepeatsTest - 2017.02.22 at 18h 19m 49s.xml">
-      <configuration name="part2Test.noRepeatsTest" configurationId="JUnit" />
+    <history-entry file="part2Test_containsTest - 2017.02.22 at 18h 46m 59s.xml">
+      <configuration name="part2Test.containsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="part2Test_noRepeatsTest - 2017.02.22 at 18h 29m 49s.xml">
-      <configuration name="part2Test.noRepeatsTest" configurationId="JUnit" />
+    <history-entry file="part2Test_containsTest - 2017.02.22 at 18h 49m 31s.xml">
+      <configuration name="part2Test.containsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="part2Test_noRepeatsTest - 2017.02.22 at 18h 30m 29s.xml">
-      <configuration name="part2Test.noRepeatsTest" configurationId="JUnit" />
+    <history-entry file="part2Test_isEmptyTest - 2017.02.22 at 18h 44m 43s.xml">
+      <configuration name="part2Test.isEmptyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="part2Test_isEmptyTest - 2017.02.22 at 18h 46m 21s.xml">
+      <configuration name="part2Test.isEmptyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="part2Test_isEmptyTest - 2017.02.22 at 18h 48m 31s.xml">
+      <configuration name="part2Test.isEmptyTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="part2Test_noRepeatsTest - 2017.02.22 at 18h 30m 31s.xml">
       <configuration name="part2Test.noRepeatsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="part2Test_sizeTest - 2017.02.22 at 18h 51m 29s.xml">
+      <configuration name="part2Test.sizeTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15229000" />
+    <option name="totallyTimeSpent" value="15956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-173" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -848,7 +848,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -879,6 +879,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1156#1157#0" expanded="true" />
+            <element signature="e#1191#1192#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -944,14 +946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kim/andy/MyArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1007,20 +1001,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kim/andy/MyArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kim/andy/MySet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        <state relative-caret-position="490">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1156#1157#0" expanded="true" />
+            <element signature="e#1191#1192#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/part2Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="550">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

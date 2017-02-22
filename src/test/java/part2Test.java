@@ -31,4 +31,18 @@ public class part2Test {
         boolean actual = mySet.contains(testSet, 0);
         Assert.assertEquals(expected, actual);
     }
+
+    @Test
+    public void isEmptyTest(){
+        boolean expected = false;
+        boolean actual = mySet.isEmpty(testSet);
+        Assert.assertEquals(expected, actual);
+    }
+    @Test
+    public void sizeTest(){
+        int expected = 3;
+        int actual = mySet.size();
+        Assert.assertEquals(expected, actual);
+    }
+
 }
